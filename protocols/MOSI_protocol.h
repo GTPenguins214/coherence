@@ -7,6 +7,8 @@
 #include "../sim/mreq.h"
 #include "protocol.h"
 
+#define DEBUG 0
+
 /** Cache states.  */
 typedef enum {
     MOSI_CACHE_I = 1,

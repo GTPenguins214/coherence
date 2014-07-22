@@ -31,33 +31,65 @@ void MOSI_protocol::dump (void)
 
 void MOSI_protocol::process_cache_request (Mreq *request)
 {
-	switch (state) {
-    case MOSI_CACHE_I: printf("PI"); do_cache_I (request); break;
-    case MOSI_CACHE_S: printf("PS"); do_cache_S (request); break;
-    case MOSI_CACHE_O: printf("PO"); do_cache_O (request); break;
-    case MOSI_CACHE_M: printf("PM"); do_cache_M (request); break;
-    case MOSI_CACHE_IS: printf("PIS"); do_cache_IS (request); break;
-    case MOSI_CACHE_IM: printf("PIM"); do_cache_IM (request); break;
-    case MOSI_CACHE_SM: printf("PSM"); do_cache_SM (request); break;
-    case MOSI_CACHE_OM: printf("POM"); do_cache_OM (request); break;
-    default:
-        fatal_error ("Invalid Cache State for MOSI Protocol\n");
+    if (DEBUG) {
+        switch(state) {
+            case MOSI_CACHE_I: printf("PI"); do_cache_I (request); break;
+            case MOSI_CACHE_S: printf("PS"); do_cache_S (request); break;
+            case MOSI_CACHE_O: printf("PO"); do_cache_O (request); break;
+            case MOSI_CACHE_M: printf("PM"); do_cache_M (request); break;
+            case MOSI_CACHE_IS: printf("PIS"); do_cache_IS (request); break;
+            case MOSI_CACHE_IM: printf("PIM"); do_cache_IM (request); break;
+            case MOSI_CACHE_SM: printf("PSM"); do_cache_SM (request); break;
+            case MOSI_CACHE_OM: printf("POM"); do_cache_OM (request); break;
+            default:
+                fatal_error ("Invalid Cache State for MOSI Protocol\n");
+        }
+    }
+    else {
+        switch (state) {
+            case MOSI_CACHE_I: do_cache_I (request); break;
+            case MOSI_CACHE_S: do_cache_S (request); break;
+            case MOSI_CACHE_O: do_cache_O (request); break;
+            case MOSI_CACHE_M: do_cache_M (request); break;
+            case MOSI_CACHE_IS: do_cache_IS (request); break;
+            case MOSI_CACHE_IM: do_cache_IM (request); break;
+            case MOSI_CACHE_SM: do_cache_SM (request); break;
+            case MOSI_CACHE_OM: do_cache_OM (request); break;
+            default:
+                fatal_error("Invalid Cache State for MOSI Protocol\n");
+        }
     }
 }
 
 void MOSI_protocol::process_snoop_request (Mreq *request)
 {
-	switch (state) {
-    case MOSI_CACHE_I: printf("SI"); do_snoop_I (request); break;
-    case MOSI_CACHE_S: printf("SS"); do_snoop_S (request); break;
-    case MOSI_CACHE_O: printf("SO"); do_snoop_O (request); break;
-    case MOSI_CACHE_M: printf("SM"); do_snoop_M (request); break;
-    case MOSI_CACHE_IS: printf("SIS"); do_snoop_IS (request); break;
-    case MOSI_CACHE_IM: printf("SIM"); do_snoop_IM (request); break;
-    case MOSI_CACHE_SM: printf("SSM"); do_snoop_SM (request); break;
-    case MOSI_CACHE_OM: printf("SOM"); do_snoop_OM (request); break;
-    default:
-    	fatal_error ("Invalid Cache State for MOSI Protocol\n");
+    if (DEBUG) {
+        switch (state) {
+            case MOSI_CACHE_I: printf("SI"); do_snoop_I (request); break;
+            case MOSI_CACHE_S: printf("SS"); do_snoop_S (request); break;
+            case MOSI_CACHE_O: printf("SO"); do_snoop_O (request); break;
+            case MOSI_CACHE_M: printf("SM"); do_snoop_M (request); break;
+            case MOSI_CACHE_IS: printf("SIS"); do_snoop_IS (request); break;
+            case MOSI_CACHE_IM: printf("SIM"); do_snoop_IM (request); break;
+            case MOSI_CACHE_SM: printf("SSM"); do_snoop_SM (request); break;
+            case MOSI_CACHE_OM: printf("SOM"); do_snoop_OM (request); break;
+            default:
+                fatal_error ("Invalid Cache State for MOSI Protocol\n");
+        }
+    }
+    else {
+        switch (state) {
+            case MOSI_CACHE_I: do_snoop_I (request); break;
+            case MOSI_CACHE_S: do_snoop_S (request); break;
+            case MOSI_CACHE_O: do_snoop_O (request); break;
+            case MOSI_CACHE_M: do_snoop_M (request); break;
+            case MOSI_CACHE_IS: do_snoop_IS (request); break;
+            case MOSI_CACHE_IM: do_snoop_IM (request); break;
+            case MOSI_CACHE_SM: do_snoop_SM (request); break;
+            case MOSI_CACHE_OM: do_snoop_OM (request); break;
+            default:
+                fatal_error ("Invalid Cache State for MOSI Protocol\n");
+        }
     }
 }
 
@@ -304,8 +336,10 @@ inline void MOSI_protocol::do_snoop_SM (Mreq *request) {
 
 inline void MOSI_protocol::do_snoop_OM (Mreq *request) {
     switch (request->msg) {
-        case GETS: 
+        case GETS:
+            break;
         case GETM:
+            send_DATA_on_bus(request->addr, request->src_mid);
             break;
         case DATA:
             //printf("Got Here 3\n");
