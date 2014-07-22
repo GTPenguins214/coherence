@@ -47,7 +47,7 @@ public:
     void send_DATA_on_bus(paddr_t addr, ModuleID dest);
     void send_DATA_to_proc(paddr_t addr);
     /** These helper functions are for setting and getting the bus' shared line */
-    void set_shared_line();
+    void set_shared_line(bool tf);
     bool get_shared_line();
 };
 

@@ -204,6 +204,7 @@ inline void MOSI_protocol::do_cache_SM (Mreq *request) {
 
 inline void MOSI_protocol::do_cache_OM (Mreq *request) {
     switch (request->msg) {
+        // Shouldn't be getting any more requests, already have a pending request
         case LOAD:
         case STORE:
             request->print_msg (my_table->moduleID, "ERROR");
@@ -220,7 +221,6 @@ inline void MOSI_protocol::do_snoop_I (Mreq *request)
         // Don't need to do anything
         case GETS:
         case GETM:
-            break;
         case DATA:
             break;
         default:
@@ -235,7 +235,7 @@ inline void MOSI_protocol::do_snoop_S (Mreq *request)
         case GETS: // Don't need to do anything for GetS
             break;
         case GETM:
-            state = MOSI_CACHE_I;
+            state = MOSI_CACHE_I; // Go to the invalid state
             break;
         case DATA:
             request->print_msg (my_table->moduleID, "ERROR");
@@ -249,10 +249,10 @@ inline void MOSI_protocol::do_snoop_S (Mreq *request)
 inline void MOSI_protocol::do_snoop_O (Mreq *request)
 {
     switch (request->msg) {
-        case GETS: // Don't do anything for GetS
+        case GETS: // Send it on the bus in the O state
             send_DATA_on_bus(request->addr, request->src_mid);
             break;
-        case GETM:
+        case GETM: // Send it on the bus in the O state and go to invalid
             send_DATA_on_bus(request->addr, request->src_mid);
             state = MOSI_CACHE_I;
             break;
@@ -269,11 +269,12 @@ inline void MOSI_protocol::do_snoop_M (Mreq *request)
 {
     switch (request->msg) {
         case GETS:
-            //printf("Got Here 1\n");
+            // Send the data on the bus and go to the owner state
             send_DATA_on_bus(request->addr, request->src_mid);
             state = MOSI_CACHE_O;
             break;
         case GETM:
+            // Send the data on the bus and go to invalid
             send_DATA_on_bus(request->addr, request->src_mid);
             state = MOSI_CACHE_I;
             break;
@@ -289,12 +290,13 @@ inline void MOSI_protocol::do_snoop_M (Mreq *request)
 
 inline void MOSI_protocol::do_snoop_IS (Mreq *request) {
     switch (request->msg) {
+        // Only look for data 
         case GETS:
         case GETM:
             break;
         case DATA:
-            send_DATA_to_proc(request->addr);
-            state = MOSI_CACHE_S;
+            send_DATA_to_proc(request->addr); // Send it up to the processor
+            state = MOSI_CACHE_S; // get out of the intermediate state
             break;
         default:
             request->print_msg (my_table->moduleID, "ERROR");
@@ -304,13 +306,13 @@ inline void MOSI_protocol::do_snoop_IS (Mreq *request) {
 
 inline void MOSI_protocol::do_snoop_IM (Mreq *request) {
     switch (request->msg) {
+        // Only look for data 
         case GETS:
         case GETM:
             break;
         case DATA:
-            //printf("Got Here\n");
-            send_DATA_to_proc(request->addr);
-            state = MOSI_CACHE_M;
+            send_DATA_to_proc(request->addr); // Send the data to the processor
+            state = MOSI_CACHE_M; // Get out of the intermediate state
             break;
         default:
             request->print_msg (my_table->moduleID, "ERROR");
@@ -320,13 +322,13 @@ inline void MOSI_protocol::do_snoop_IM (Mreq *request) {
 
 inline void MOSI_protocol::do_snoop_SM (Mreq *request) {
     switch (request->msg) {
+        // Only look for data 
         case GETS:
         case GETM:
             break;
         case DATA:
-            //printf("Got Here 2\n");
-            send_DATA_to_proc(request->addr);
-            state = MOSI_CACHE_M;
+            send_DATA_to_proc(request->addr); // Send data to processor
+            state = MOSI_CACHE_M; // get out of the intermediate state
             break;
         default:
             request->print_msg (my_table->moduleID, "ERROR");
@@ -339,12 +341,12 @@ inline void MOSI_protocol::do_snoop_OM (Mreq *request) {
         case GETS:
             break;
         case GETM:
+            // We send it to ourselves
             send_DATA_on_bus(request->addr, request->src_mid);
             break;
         case DATA:
-            //printf("Got Here 3\n");
-            send_DATA_to_proc(request->addr);
-            state = MOSI_CACHE_M;
+            send_DATA_to_proc(request->addr); // Send it to the processor
+            state = MOSI_CACHE_M; // Get out of the intermediate state
             break;
         default:
             request->print_msg (my_table->moduleID, "ERROR");

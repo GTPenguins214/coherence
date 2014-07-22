@@ -185,7 +185,7 @@ inline void MI_protocol::do_snoop_M (Mreq *request)
     	 * chip.  (This will be essential to understand in order to implement MESI/
     	 * MOSI/MOESI)
     	 */
-    	set_shared_line();
+    	set_shared_line(true);
     	send_DATA_on_bus(request->addr,request->src_mid);
     	state = MI_CACHE_I;
     	break;
