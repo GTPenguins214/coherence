@@ -133,7 +133,7 @@ inline void MESI_protocol::do_cache_E (Mreq *request)
 {
     switch(request->msg) {
         case LOAD:
-            send_DATA_to_proc(request->addr);
+            send_DATA_to_proc(request->addr); // send it up
             break;
         case STORE:
             send_DATA_to_proc(request->addr);
@@ -221,7 +221,7 @@ inline void MESI_protocol::do_snoop_S (Mreq *request)
 {
     switch (request->msg) {
         case GETS:
-            set_shared_line(true);
+            set_shared_line(true); // Set the shared line
             break;
         case GETM:
             state = MESI_CACHE_I; // go to invalid, someone else wants to write
@@ -240,6 +240,7 @@ inline void MESI_protocol::do_snoop_E (Mreq *request)
 {
     switch (request->msg) {
         case GETS:
+            // Send the data, set the shared line and downgrade to S
             send_DATA_on_bus(request->addr, request->src_mid);
             set_shared_line(true);
             state = MESI_CACHE_S;
@@ -286,6 +287,7 @@ inline void MESI_protocol::do_snoop_IM (Mreq *request) {
         case GETM:
             break;
         case DATA:
+            // send the data up, set the shared line to false, only we have the data
             send_DATA_to_proc(request->addr);
             set_shared_line(false);
             state = MESI_CACHE_M; // Send the data and transition
@@ -302,6 +304,7 @@ inline void MESI_protocol::do_snoop_IS (Mreq *request) {
         case GETM:
             break;
         case DATA:
+            // Send the data up
             send_DATA_to_proc(request->addr);
             // Check if there are other copies in other processors. If so
             // then we go to the shared state, otherwise go to exclusive
@@ -321,13 +324,15 @@ inline void MESI_protocol::do_snoop_IS (Mreq *request) {
 inline void MESI_protocol::do_snoop_SM (Mreq *request) {
     switch (request->msg) {
         case GETS:
-            set_shared_line(true); // Set line to shared
+            set_shared_line(true); // Set line to shared because others are getting the data
             break;
         case GETM:
             break;
         case DATA:
+            // Send the data up, set shared=false since we have the data
             send_DATA_to_proc(request->addr);
             state = MESI_CACHE_M;
+            set_shared_line(false);
             break;
         default:
             request->print_msg (my_table->moduleID, "ERROR");
