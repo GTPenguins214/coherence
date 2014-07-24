@@ -1,0 +1,1199 @@
+CSX290 Sim - Begins   Cores: 8 Protocol: MOESI_PRO
+* FETCH -- PR: 0 -- Clock: 0 -- r 0x179f77d
+* FETCH -- PR: 1 -- Clock: 0 -- r 0x179f77d
+* FETCH -- PR: 2 -- Clock: 0 -- r 0x179f77d
+* FETCH -- PR: 3 -- Clock: 0 -- r 0x179f77d
+* FETCH -- PR: 4 -- Clock: 0 -- r 0x179f77d
+* FETCH -- PR: 5 -- Clock: 0 -- r 0x179f77d
+* FETCH -- PR: 6 -- Clock: 0 -- r 0x179f77d
+* FETCH -- PR: 7 -- Clock: 0 -- w 0x179f77d
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x 179f77d clock:        1      LOAD
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x 179f77d clock:        1      LOAD
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x 179f77d clock:        1      LOAD
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x 179f77d clock:        1      LOAD
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x 179f77d clock:        1      LOAD
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x 179f77d clock:        1      LOAD
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x 179f77d clock:        1      LOAD
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x 179f77d clock:        1     STORE
+*** SNOOP REQUEST -- node:  0/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:        2      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:        2      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:        2      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:        2      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:        2      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:        2      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:        2      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:        2      GETS
+**** DATA SEND MC -- Clock: 102
+*** SNOOP REQUEST -- node:  0/L1   src:  8/MC  dest:  0/L1  tag: 0x 179f77d clock:      112      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      113      GETS
+**** DATA_SEND Cache: 0 -- Clock: 113
+*** SNOOP REQUEST -- node:  1/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      113      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      113      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      113      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      113      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      113      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      113      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      113      GETS
+* COMPLETE -- PR: 0 -- Clock: 113
+* FETCH -- PR: 0 -- Clock: 113 -- w 0x179f77d
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x 179f77d clock:      114     STORE
+*** SNOOP REQUEST -- node:  1/L1   src:  0/L1  dest:  1/L1  tag: 0x 179f77d clock:      123      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      124      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      124      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      124      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      124      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      124      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      124      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      124      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      124      GETS
+* COMPLETE -- PR: 1 -- Clock: 124
+* FETCH -- PR: 1 -- Clock: 124 -- w 0x179f77d
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x 179f77d clock:      125     STORE
+**** DATA SEND MC -- Clock: 224
+*** SNOOP REQUEST -- node:  2/L1   src:  8/MC  dest:  2/L1  tag: 0x 179f77d clock:      234      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      235      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      235      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      235      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      235      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      235      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      235      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      235      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      235      GETS
+* COMPLETE -- PR: 2 -- Clock: 235
+* FETCH -- PR: 2 -- Clock: 235 -- w 0x179f77d
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x 179f77d clock:      236     STORE
+**** DATA SEND MC -- Clock: 335
+*** SNOOP REQUEST -- node:  3/L1   src:  8/MC  dest:  3/L1  tag: 0x 179f77d clock:      345      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      346      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      346      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      346      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      346      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      346      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      346      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      346      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      346      GETS
+* COMPLETE -- PR: 3 -- Clock: 346
+* FETCH -- PR: 3 -- Clock: 346 -- w 0x179f77d
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x 179f77d clock:      347     STORE
+**** DATA SEND MC -- Clock: 446
+*** SNOOP REQUEST -- node:  4/L1   src:  8/MC  dest:  4/L1  tag: 0x 179f77d clock:      456      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  5/L1  dest:  None tag: 0x 179f77d clock:      457      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  5/L1  dest:  None tag: 0x 179f77d clock:      457      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  5/L1  dest:  None tag: 0x 179f77d clock:      457      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  5/L1  dest:  None tag: 0x 179f77d clock:      457      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  5/L1  dest:  None tag: 0x 179f77d clock:      457      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  5/L1  dest:  None tag: 0x 179f77d clock:      457      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  5/L1  dest:  None tag: 0x 179f77d clock:      457      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  5/L1  dest:  None tag: 0x 179f77d clock:      457      GETS
+* COMPLETE -- PR: 4 -- Clock: 457
+* FETCH -- PR: 4 -- Clock: 457 -- w 0x179f77d
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x 179f77d clock:      458     STORE
+**** DATA SEND MC -- Clock: 557
+*** SNOOP REQUEST -- node:  5/L1   src:  8/MC  dest:  5/L1  tag: 0x 179f77d clock:      567      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      568      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      568      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      568      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      568      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      568      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      568      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      568      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      568      GETS
+* COMPLETE -- PR: 5 -- Clock: 568
+* FETCH -- PR: 5 -- Clock: 568 -- r 0x179f77d
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x 179f77d clock:      569      LOAD
+* COMPLETE -- PR: 5 -- Clock: 570
+* FETCH -- PR: 5 -- Clock: 570 -- r 0x179f77e
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x 179f77e clock:      571      LOAD
+**** DATA SEND MC -- Clock: 668
+*** SNOOP REQUEST -- node:  6/L1   src:  8/MC  dest:  6/L1  tag: 0x 179f77d clock:      678      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      679      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      679      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      679      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      679      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      679      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      679      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      679      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      679      GETM
+* COMPLETE -- PR: 6 -- Clock: 679
+* FETCH -- PR: 6 -- Clock: 679 -- w 0x179f77d
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x 179f77d clock:      680     STORE
+**** DATA SEND MC -- Clock: 779
+*** SNOOP REQUEST -- node:  7/L1   src:  8/MC  dest:  7/L1  tag: 0x 179f77d clock:      789      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:      790      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:      790      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:      790      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:      790      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:      790      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:      790      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:      790      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  0/L1  dest:  None tag: 0x 179f77d clock:      790      GETM
+**** DATA_SEND Cache: 7 -- Clock: 790
+* COMPLETE -- PR: 7 -- Clock: 790
+* FETCH -- PR: 7 -- Clock: 790 -- r 0x179f77d
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x 179f77d clock:      791      LOAD
+*** SNOOP REQUEST -- node:  0/L1   src:  7/L1  dest:  0/L1  tag: 0x 179f77d clock:      800      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      801      GETM
+**** DATA_SEND Cache: 0 -- Clock: 801
+*** SNOOP REQUEST -- node:  1/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      801      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      801      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      801      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      801      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      801      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      801      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  1/L1  dest:  None tag: 0x 179f77d clock:      801      GETM
+* COMPLETE -- PR: 0 -- Clock: 801
+* FETCH -- PR: 0 -- Clock: 801 -- w 0x179f77e
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x 179f77e clock:      802     STORE
+*** SNOOP REQUEST -- node:  1/L1   src:  0/L1  dest:  1/L1  tag: 0x 179f77d clock:      811      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      812      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      812      GETM
+**** DATA_SEND Cache: 1 -- Clock: 812
+*** SNOOP REQUEST -- node:  2/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      812      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      812      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      812      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      812      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      812      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  2/L1  dest:  None tag: 0x 179f77d clock:      812      GETM
+* COMPLETE -- PR: 1 -- Clock: 812
+* FETCH -- PR: 1 -- Clock: 812 -- w 0x179f77e
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x 179f77e clock:      813     STORE
+*** SNOOP REQUEST -- node:  2/L1   src:  1/L1  dest:  2/L1  tag: 0x 179f77d clock:      822      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      823      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      823      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      823      GETM
+**** DATA_SEND Cache: 2 -- Clock: 823
+*** SNOOP REQUEST -- node:  3/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      823      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      823      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      823      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      823      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  3/L1  dest:  None tag: 0x 179f77d clock:      823      GETM
+* COMPLETE -- PR: 2 -- Clock: 823
+* FETCH -- PR: 2 -- Clock: 823 -- w 0x179f77e
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x 179f77e clock:      824     STORE
+*** SNOOP REQUEST -- node:  3/L1   src:  2/L1  dest:  3/L1  tag: 0x 179f77d clock:      833      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      834      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      834      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      834      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      834      GETM
+**** DATA_SEND Cache: 3 -- Clock: 834
+*** SNOOP REQUEST -- node:  4/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      834      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      834      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      834      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  4/L1  dest:  None tag: 0x 179f77d clock:      834      GETM
+* COMPLETE -- PR: 3 -- Clock: 834
+* FETCH -- PR: 3 -- Clock: 834 -- w 0x179f77e
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x 179f77e clock:      835     STORE
+*** SNOOP REQUEST -- node:  4/L1   src:  3/L1  dest:  4/L1  tag: 0x 179f77d clock:      844      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  5/L1  dest:  None tag: 0x 179f77e clock:      845      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  5/L1  dest:  None tag: 0x 179f77e clock:      845      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  5/L1  dest:  None tag: 0x 179f77e clock:      845      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  5/L1  dest:  None tag: 0x 179f77e clock:      845      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  5/L1  dest:  None tag: 0x 179f77e clock:      845      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  5/L1  dest:  None tag: 0x 179f77e clock:      845      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  5/L1  dest:  None tag: 0x 179f77e clock:      845      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  5/L1  dest:  None tag: 0x 179f77e clock:      845      GETS
+* COMPLETE -- PR: 4 -- Clock: 845
+* FETCH -- PR: 4 -- Clock: 845 -- w 0x179f77e
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x 179f77e clock:      846     STORE
+**** DATA SEND MC -- Clock: 945
+*** SNOOP REQUEST -- node:  5/L1   src:  8/MC  dest:  5/L1  tag: 0x 179f77e clock:      955      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      956      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      956      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      956      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      956      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      956      GETM
+**** DATA_SEND Cache: 4 -- Clock: 956
+*** SNOOP REQUEST -- node:  5/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      956      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      956      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  6/L1  dest:  None tag: 0x 179f77d clock:      956      GETM
+* COMPLETE -- PR: 5 -- Clock: 956
+* FETCH -- PR: 5 -- Clock: 956 -- w 0x179f77c
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x 179f77c clock:      957     STORE
+*** SNOOP REQUEST -- node:  6/L1   src:  4/L1  dest:  6/L1  tag: 0x 179f77d clock:      966      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      967      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      967      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      967      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      967      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      967      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      967      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      967      GETS
+**** DATA_SEND Cache: 6 -- Clock: 967
+*** SNOOP REQUEST -- node:  7/L1   src:  7/L1  dest:  None tag: 0x 179f77d clock:      967      GETS
+* COMPLETE -- PR: 6 -- Clock: 967
+* FETCH -- PR: 6 -- Clock: 967 -- w 0x179f77e
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x 179f77e clock:      968     STORE
+*** SNOOP REQUEST -- node:  7/L1   src:  6/L1  dest:  7/L1  tag: 0x 179f77d clock:      977      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  0/L1  dest:  None tag: 0x 179f77e clock:      978      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  0/L1  dest:  None tag: 0x 179f77e clock:      978      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  0/L1  dest:  None tag: 0x 179f77e clock:      978      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  0/L1  dest:  None tag: 0x 179f77e clock:      978      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  0/L1  dest:  None tag: 0x 179f77e clock:      978      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  0/L1  dest:  None tag: 0x 179f77e clock:      978      GETM
+**** DATA_SEND Cache: 5 -- Clock: 978
+*** SNOOP REQUEST -- node:  6/L1   src:  0/L1  dest:  None tag: 0x 179f77e clock:      978      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  0/L1  dest:  None tag: 0x 179f77e clock:      978      GETM
+* COMPLETE -- PR: 7 -- Clock: 978
+* FETCH -- PR: 7 -- Clock: 978 -- r 0x179f77e
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x 179f77e clock:      979      LOAD
+*** SNOOP REQUEST -- node:  0/L1   src:  5/L1  dest:  0/L1  tag: 0x 179f77e clock:      988      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  1/L1  dest:  None tag: 0x 179f77e clock:      989      GETM
+**** DATA_SEND Cache: 0 -- Clock: 989
+*** SNOOP REQUEST -- node:  1/L1   src:  1/L1  dest:  None tag: 0x 179f77e clock:      989      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  1/L1  dest:  None tag: 0x 179f77e clock:      989      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  1/L1  dest:  None tag: 0x 179f77e clock:      989      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  1/L1  dest:  None tag: 0x 179f77e clock:      989      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  1/L1  dest:  None tag: 0x 179f77e clock:      989      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  1/L1  dest:  None tag: 0x 179f77e clock:      989      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  1/L1  dest:  None tag: 0x 179f77e clock:      989      GETM
+* COMPLETE -- PR: 0 -- Clock: 989
+* FETCH -- PR: 0 -- Clock: 989 -- w 0x179f77c
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x 179f77c clock:      990     STORE
+*** SNOOP REQUEST -- node:  1/L1   src:  0/L1  dest:  1/L1  tag: 0x 179f77e clock:      999      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  2/L1  dest:  None tag: 0x 179f77e clock:     1000      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  2/L1  dest:  None tag: 0x 179f77e clock:     1000      GETM
+**** DATA_SEND Cache: 1 -- Clock: 1000
+*** SNOOP REQUEST -- node:  2/L1   src:  2/L1  dest:  None tag: 0x 179f77e clock:     1000      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  2/L1  dest:  None tag: 0x 179f77e clock:     1000      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  2/L1  dest:  None tag: 0x 179f77e clock:     1000      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  2/L1  dest:  None tag: 0x 179f77e clock:     1000      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  2/L1  dest:  None tag: 0x 179f77e clock:     1000      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  2/L1  dest:  None tag: 0x 179f77e clock:     1000      GETM
+* COMPLETE -- PR: 1 -- Clock: 1000
+* FETCH -- PR: 1 -- Clock: 1000 -- w 0x179f77c
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x 179f77c clock:     1001     STORE
+*** SNOOP REQUEST -- node:  2/L1   src:  1/L1  dest:  2/L1  tag: 0x 179f77e clock:     1010      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  3/L1  dest:  None tag: 0x 179f77e clock:     1011      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  3/L1  dest:  None tag: 0x 179f77e clock:     1011      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  3/L1  dest:  None tag: 0x 179f77e clock:     1011      GETM
+**** DATA_SEND Cache: 2 -- Clock: 1011
+*** SNOOP REQUEST -- node:  3/L1   src:  3/L1  dest:  None tag: 0x 179f77e clock:     1011      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  3/L1  dest:  None tag: 0x 179f77e clock:     1011      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  3/L1  dest:  None tag: 0x 179f77e clock:     1011      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  3/L1  dest:  None tag: 0x 179f77e clock:     1011      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  3/L1  dest:  None tag: 0x 179f77e clock:     1011      GETM
+* COMPLETE -- PR: 2 -- Clock: 1011
+* FETCH -- PR: 2 -- Clock: 1011 -- w 0x179f77c
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x 179f77c clock:     1012     STORE
+*** SNOOP REQUEST -- node:  3/L1   src:  2/L1  dest:  3/L1  tag: 0x 179f77e clock:     1021      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  4/L1  dest:  None tag: 0x 179f77e clock:     1022      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  4/L1  dest:  None tag: 0x 179f77e clock:     1022      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  4/L1  dest:  None tag: 0x 179f77e clock:     1022      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  4/L1  dest:  None tag: 0x 179f77e clock:     1022      GETM
+**** DATA_SEND Cache: 3 -- Clock: 1022
+*** SNOOP REQUEST -- node:  4/L1   src:  4/L1  dest:  None tag: 0x 179f77e clock:     1022      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  4/L1  dest:  None tag: 0x 179f77e clock:     1022      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  4/L1  dest:  None tag: 0x 179f77e clock:     1022      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  4/L1  dest:  None tag: 0x 179f77e clock:     1022      GETM
+* COMPLETE -- PR: 3 -- Clock: 1022
+* FETCH -- PR: 3 -- Clock: 1022 -- w 0x179f77c
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x 179f77c clock:     1023     STORE
+*** SNOOP REQUEST -- node:  4/L1   src:  3/L1  dest:  4/L1  tag: 0x 179f77e clock:     1032      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  5/L1  dest:  None tag: 0x 179f77c clock:     1033      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  5/L1  dest:  None tag: 0x 179f77c clock:     1033      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  5/L1  dest:  None tag: 0x 179f77c clock:     1033      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  5/L1  dest:  None tag: 0x 179f77c clock:     1033      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  5/L1  dest:  None tag: 0x 179f77c clock:     1033      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  5/L1  dest:  None tag: 0x 179f77c clock:     1033      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  5/L1  dest:  None tag: 0x 179f77c clock:     1033      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  5/L1  dest:  None tag: 0x 179f77c clock:     1033      GETM
+* COMPLETE -- PR: 4 -- Clock: 1033
+* FETCH -- PR: 4 -- Clock: 1033 -- w 0x179f77c
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x 179f77c clock:     1034     STORE
+**** DATA SEND MC -- Clock: 1133
+*** SNOOP REQUEST -- node:  5/L1   src:  8/MC  dest:  5/L1  tag: 0x 179f77c clock:     1143      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  6/L1  dest:  None tag: 0x 179f77e clock:     1144      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  6/L1  dest:  None tag: 0x 179f77e clock:     1144      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  6/L1  dest:  None tag: 0x 179f77e clock:     1144      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  6/L1  dest:  None tag: 0x 179f77e clock:     1144      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  6/L1  dest:  None tag: 0x 179f77e clock:     1144      GETM
+**** DATA_SEND Cache: 4 -- Clock: 1144
+*** SNOOP REQUEST -- node:  5/L1   src:  6/L1  dest:  None tag: 0x 179f77e clock:     1144      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  6/L1  dest:  None tag: 0x 179f77e clock:     1144      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  6/L1  dest:  None tag: 0x 179f77e clock:     1144      GETM
+* COMPLETE -- PR: 5 -- Clock: 1144
+* FETCH -- PR: 5 -- Clock: 1144 -- r 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1145      LOAD
+*** SNOOP REQUEST -- node:  6/L1   src:  4/L1  dest:  6/L1  tag: 0x 179f77e clock:     1154      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  7/L1  dest:  None tag: 0x 179f77e clock:     1155      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  7/L1  dest:  None tag: 0x 179f77e clock:     1155      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  7/L1  dest:  None tag: 0x 179f77e clock:     1155      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  7/L1  dest:  None tag: 0x 179f77e clock:     1155      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  7/L1  dest:  None tag: 0x 179f77e clock:     1155      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  7/L1  dest:  None tag: 0x 179f77e clock:     1155      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  7/L1  dest:  None tag: 0x 179f77e clock:     1155      GETS
+**** DATA_SEND Cache: 6 -- Clock: 1155
+*** SNOOP REQUEST -- node:  7/L1   src:  7/L1  dest:  None tag: 0x 179f77e clock:     1155      GETS
+* COMPLETE -- PR: 6 -- Clock: 1155
+* FETCH -- PR: 6 -- Clock: 1155 -- w 0x179f77c
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x 179f77c clock:     1156     STORE
+*** SNOOP REQUEST -- node:  7/L1   src:  6/L1  dest:  7/L1  tag: 0x 179f77e clock:     1165      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  0/L1  dest:  None tag: 0x 179f77c clock:     1166      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  0/L1  dest:  None tag: 0x 179f77c clock:     1166      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  0/L1  dest:  None tag: 0x 179f77c clock:     1166      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  0/L1  dest:  None tag: 0x 179f77c clock:     1166      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  0/L1  dest:  None tag: 0x 179f77c clock:     1166      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  0/L1  dest:  None tag: 0x 179f77c clock:     1166      GETM
+**** DATA_SEND Cache: 5 -- Clock: 1166
+*** SNOOP REQUEST -- node:  6/L1   src:  0/L1  dest:  None tag: 0x 179f77c clock:     1166      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  0/L1  dest:  None tag: 0x 179f77c clock:     1166      GETM
+* COMPLETE -- PR: 7 -- Clock: 1166
+* FETCH -- PR: 7 -- Clock: 1166 -- w 0x179f77c
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x 179f77c clock:     1167     STORE
+*** SNOOP REQUEST -- node:  0/L1   src:  5/L1  dest:  0/L1  tag: 0x 179f77c clock:     1176      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  1/L1  dest:  None tag: 0x 179f77c clock:     1177      GETM
+**** DATA_SEND Cache: 0 -- Clock: 1177
+*** SNOOP REQUEST -- node:  1/L1   src:  1/L1  dest:  None tag: 0x 179f77c clock:     1177      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  1/L1  dest:  None tag: 0x 179f77c clock:     1177      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  1/L1  dest:  None tag: 0x 179f77c clock:     1177      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  1/L1  dest:  None tag: 0x 179f77c clock:     1177      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  1/L1  dest:  None tag: 0x 179f77c clock:     1177      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  1/L1  dest:  None tag: 0x 179f77c clock:     1177      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  1/L1  dest:  None tag: 0x 179f77c clock:     1177      GETM
+* COMPLETE -- PR: 0 -- Clock: 1177
+* FETCH -- PR: 0 -- Clock: 1177 -- r 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1178      LOAD
+*** SNOOP REQUEST -- node:  1/L1   src:  0/L1  dest:  1/L1  tag: 0x 179f77c clock:     1187      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  2/L1  dest:  None tag: 0x 179f77c clock:     1188      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  2/L1  dest:  None tag: 0x 179f77c clock:     1188      GETM
+**** DATA_SEND Cache: 1 -- Clock: 1188
+*** SNOOP REQUEST -- node:  2/L1   src:  2/L1  dest:  None tag: 0x 179f77c clock:     1188      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  2/L1  dest:  None tag: 0x 179f77c clock:     1188      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  2/L1  dest:  None tag: 0x 179f77c clock:     1188      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  2/L1  dest:  None tag: 0x 179f77c clock:     1188      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  2/L1  dest:  None tag: 0x 179f77c clock:     1188      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  2/L1  dest:  None tag: 0x 179f77c clock:     1188      GETM
+* COMPLETE -- PR: 1 -- Clock: 1188
+* FETCH -- PR: 1 -- Clock: 1188 -- r 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1189      LOAD
+*** SNOOP REQUEST -- node:  2/L1   src:  1/L1  dest:  2/L1  tag: 0x 179f77c clock:     1198      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  3/L1  dest:  None tag: 0x 179f77c clock:     1199      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  3/L1  dest:  None tag: 0x 179f77c clock:     1199      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  3/L1  dest:  None tag: 0x 179f77c clock:     1199      GETM
+**** DATA_SEND Cache: 2 -- Clock: 1199
+*** SNOOP REQUEST -- node:  3/L1   src:  3/L1  dest:  None tag: 0x 179f77c clock:     1199      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  3/L1  dest:  None tag: 0x 179f77c clock:     1199      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  3/L1  dest:  None tag: 0x 179f77c clock:     1199      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  3/L1  dest:  None tag: 0x 179f77c clock:     1199      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  3/L1  dest:  None tag: 0x 179f77c clock:     1199      GETM
+* COMPLETE -- PR: 2 -- Clock: 1199
+* FETCH -- PR: 2 -- Clock: 1199 -- r 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1200      LOAD
+*** SNOOP REQUEST -- node:  3/L1   src:  2/L1  dest:  3/L1  tag: 0x 179f77c clock:     1209      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  4/L1  dest:  None tag: 0x 179f77c clock:     1210      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  4/L1  dest:  None tag: 0x 179f77c clock:     1210      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  4/L1  dest:  None tag: 0x 179f77c clock:     1210      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  4/L1  dest:  None tag: 0x 179f77c clock:     1210      GETM
+**** DATA_SEND Cache: 3 -- Clock: 1210
+*** SNOOP REQUEST -- node:  4/L1   src:  4/L1  dest:  None tag: 0x 179f77c clock:     1210      GETM
+*** SNOOP REQUEST -- node:  5/L1   src:  4/L1  dest:  None tag: 0x 179f77c clock:     1210      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  4/L1  dest:  None tag: 0x 179f77c clock:     1210      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  4/L1  dest:  None tag: 0x 179f77c clock:     1210      GETM
+* COMPLETE -- PR: 3 -- Clock: 1210
+* FETCH -- PR: 3 -- Clock: 1210 -- r 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1211      LOAD
+*** SNOOP REQUEST -- node:  4/L1   src:  3/L1  dest:  4/L1  tag: 0x 179f77c clock:     1220      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  5/L1  dest:  None tag: 0x   51ae1 clock:     1221      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  5/L1  dest:  None tag: 0x   51ae1 clock:     1221      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  5/L1  dest:  None tag: 0x   51ae1 clock:     1221      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  5/L1  dest:  None tag: 0x   51ae1 clock:     1221      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  5/L1  dest:  None tag: 0x   51ae1 clock:     1221      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  5/L1  dest:  None tag: 0x   51ae1 clock:     1221      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  5/L1  dest:  None tag: 0x   51ae1 clock:     1221      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  5/L1  dest:  None tag: 0x   51ae1 clock:     1221      GETS
+* COMPLETE -- PR: 4 -- Clock: 1221
+* FETCH -- PR: 4 -- Clock: 1221 -- r 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1222      LOAD
+**** DATA SEND MC -- Clock: 1321
+*** SNOOP REQUEST -- node:  5/L1   src:  8/MC  dest:  5/L1  tag: 0x   51ae1 clock:     1331      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  6/L1  dest:  None tag: 0x 179f77c clock:     1332      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  6/L1  dest:  None tag: 0x 179f77c clock:     1332      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  6/L1  dest:  None tag: 0x 179f77c clock:     1332      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  6/L1  dest:  None tag: 0x 179f77c clock:     1332      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  6/L1  dest:  None tag: 0x 179f77c clock:     1332      GETM
+**** DATA_SEND Cache: 4 -- Clock: 1332
+*** SNOOP REQUEST -- node:  5/L1   src:  6/L1  dest:  None tag: 0x 179f77c clock:     1332      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  6/L1  dest:  None tag: 0x 179f77c clock:     1332      GETM
+*** SNOOP REQUEST -- node:  7/L1   src:  6/L1  dest:  None tag: 0x 179f77c clock:     1332      GETM
+* COMPLETE -- PR: 5 -- Clock: 1332
+* FETCH -- PR: 5 -- Clock: 1332 -- w 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1333     STORE
+* COMPLETE -- PR: 5 -- Clock: 1334
+* FETCH -- PR: 5 -- Clock: 1334 -- r 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1335      LOAD
+* COMPLETE -- PR: 5 -- Clock: 1336
+* FETCH -- PR: 5 -- Clock: 1336 -- w 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1337     STORE
+* COMPLETE -- PR: 5 -- Clock: 1338
+* FETCH -- PR: 5 -- Clock: 1338 -- r 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1339      LOAD
+* COMPLETE -- PR: 5 -- Clock: 1340
+* FETCH -- PR: 5 -- Clock: 1340 -- r 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1341      LOAD
+*** SNOOP REQUEST -- node:  6/L1   src:  4/L1  dest:  6/L1  tag: 0x 179f77c clock:     1342      DATA
+* COMPLETE -- PR: 5 -- Clock: 1342
+* FETCH -- PR: 5 -- Clock: 1342 -- r 0x51ae1
+*** SNOOP REQUEST -- node:  0/L1   src:  7/L1  dest:  None tag: 0x 179f77c clock:     1343      GETM
+*** SNOOP REQUEST -- node:  1/L1   src:  7/L1  dest:  None tag: 0x 179f77c clock:     1343      GETM
+*** SNOOP REQUEST -- node:  2/L1   src:  7/L1  dest:  None tag: 0x 179f77c clock:     1343      GETM
+*** SNOOP REQUEST -- node:  3/L1   src:  7/L1  dest:  None tag: 0x 179f77c clock:     1343      GETM
+*** SNOOP REQUEST -- node:  4/L1   src:  7/L1  dest:  None tag: 0x 179f77c clock:     1343      GETM
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1343      LOAD
+*** SNOOP REQUEST -- node:  5/L1   src:  7/L1  dest:  None tag: 0x 179f77c clock:     1343      GETM
+*** SNOOP REQUEST -- node:  6/L1   src:  7/L1  dest:  None tag: 0x 179f77c clock:     1343      GETM
+**** DATA_SEND Cache: 6 -- Clock: 1343
+*** SNOOP REQUEST -- node:  7/L1   src:  7/L1  dest:  None tag: 0x 179f77c clock:     1343      GETM
+* COMPLETE -- PR: 6 -- Clock: 1343
+* FETCH -- PR: 6 -- Clock: 1343 -- r 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     1344      LOAD
+* COMPLETE -- PR: 5 -- Clock: 1344
+* FETCH -- PR: 5 -- Clock: 1344 -- w 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1345     STORE
+* COMPLETE -- PR: 5 -- Clock: 1346
+* FETCH -- PR: 5 -- Clock: 1346 -- r 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1347      LOAD
+* COMPLETE -- PR: 5 -- Clock: 1348
+* FETCH -- PR: 5 -- Clock: 1348 -- r 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1349      LOAD
+* COMPLETE -- PR: 5 -- Clock: 1350
+* FETCH -- PR: 5 -- Clock: 1350 -- r 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1351      LOAD
+* COMPLETE -- PR: 5 -- Clock: 1352
+* FETCH -- PR: 5 -- Clock: 1352 -- w 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1353     STORE
+*** SNOOP REQUEST -- node:  7/L1   src:  6/L1  dest:  7/L1  tag: 0x 179f77c clock:     1353      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  0/L1  dest:  None tag: 0x   4db21 clock:     1354      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  0/L1  dest:  None tag: 0x   4db21 clock:     1354      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  0/L1  dest:  None tag: 0x   4db21 clock:     1354      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  0/L1  dest:  None tag: 0x   4db21 clock:     1354      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  0/L1  dest:  None tag: 0x   4db21 clock:     1354      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  0/L1  dest:  None tag: 0x   4db21 clock:     1354      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  0/L1  dest:  None tag: 0x   4db21 clock:     1354      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  0/L1  dest:  None tag: 0x   4db21 clock:     1354      GETS
+* COMPLETE -- PR: 5 -- Clock: 1354
+* FETCH -- PR: 5 -- Clock: 1354 -- r 0x51ae1
+* COMPLETE -- PR: 7 -- Clock: 1354
+* FETCH -- PR: 7 -- Clock: 1354 -- r 0x51b25
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1355      LOAD
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     1355      LOAD
+* COMPLETE -- PR: 5 -- Clock: 1356
+* FETCH -- PR: 5 -- Clock: 1356 -- r 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1357      LOAD
+* COMPLETE -- PR: 5 -- Clock: 1358
+* FETCH -- PR: 5 -- Clock: 1358 -- r 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1359      LOAD
+* COMPLETE -- PR: 5 -- Clock: 1360
+* FETCH -- PR: 5 -- Clock: 1360 -- r 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1361      LOAD
+* COMPLETE -- PR: 5 -- Clock: 1362
+* FETCH -- PR: 5 -- Clock: 1362 -- w 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1363     STORE
+* COMPLETE -- PR: 5 -- Clock: 1364
+* FETCH -- PR: 5 -- Clock: 1364 -- w 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     1365     STORE
+* COMPLETE -- PR: 5 -- Clock: 1366
+* FETCH -- PR: 5 -- Clock: 1366 -- r 0x5ac8ff
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x  5ac8ff clock:     1367      LOAD
+**** DATA SEND MC -- Clock: 1454
+*** SNOOP REQUEST -- node:  0/L1   src:  8/MC  dest:  0/L1  tag: 0x   4db21 clock:     1464      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  1/L1  dest:  None tag: 0x   4db20 clock:     1465      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  1/L1  dest:  None tag: 0x   4db20 clock:     1465      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  1/L1  dest:  None tag: 0x   4db20 clock:     1465      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  1/L1  dest:  None tag: 0x   4db20 clock:     1465      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  1/L1  dest:  None tag: 0x   4db20 clock:     1465      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  1/L1  dest:  None tag: 0x   4db20 clock:     1465      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  1/L1  dest:  None tag: 0x   4db20 clock:     1465      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  1/L1  dest:  None tag: 0x   4db20 clock:     1465      GETS
+* COMPLETE -- PR: 0 -- Clock: 1465
+* FETCH -- PR: 0 -- Clock: 1465 -- w 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1466     STORE
+* COMPLETE -- PR: 0 -- Clock: 1467
+* FETCH -- PR: 0 -- Clock: 1467 -- r 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1468      LOAD
+* COMPLETE -- PR: 0 -- Clock: 1469
+* FETCH -- PR: 0 -- Clock: 1469 -- w 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1470     STORE
+* COMPLETE -- PR: 0 -- Clock: 1471
+* FETCH -- PR: 0 -- Clock: 1471 -- r 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1472      LOAD
+* COMPLETE -- PR: 0 -- Clock: 1473
+* FETCH -- PR: 0 -- Clock: 1473 -- r 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1474      LOAD
+* COMPLETE -- PR: 0 -- Clock: 1475
+* FETCH -- PR: 0 -- Clock: 1475 -- r 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1476      LOAD
+* COMPLETE -- PR: 0 -- Clock: 1477
+* FETCH -- PR: 0 -- Clock: 1477 -- w 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1478     STORE
+* COMPLETE -- PR: 0 -- Clock: 1479
+* FETCH -- PR: 0 -- Clock: 1479 -- r 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1480      LOAD
+* COMPLETE -- PR: 0 -- Clock: 1481
+* FETCH -- PR: 0 -- Clock: 1481 -- w 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1482     STORE
+* COMPLETE -- PR: 0 -- Clock: 1483
+* FETCH -- PR: 0 -- Clock: 1483 -- r 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1484      LOAD
+* COMPLETE -- PR: 0 -- Clock: 1485
+* FETCH -- PR: 0 -- Clock: 1485 -- r 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1486      LOAD
+* COMPLETE -- PR: 0 -- Clock: 1487
+* FETCH -- PR: 0 -- Clock: 1487 -- r 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1488      LOAD
+* COMPLETE -- PR: 0 -- Clock: 1489
+* FETCH -- PR: 0 -- Clock: 1489 -- r 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1490      LOAD
+* COMPLETE -- PR: 0 -- Clock: 1491
+* FETCH -- PR: 0 -- Clock: 1491 -- r 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1492      LOAD
+* COMPLETE -- PR: 0 -- Clock: 1493
+* FETCH -- PR: 0 -- Clock: 1493 -- r 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     1494      LOAD
+* COMPLETE -- PR: 0 -- Clock: 1495
+* FETCH -- PR: 0 -- Clock: 1495 -- r 0x5ac8ff
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x  5ac8ff clock:     1496      LOAD
+**** DATA SEND MC -- Clock: 1565
+*** SNOOP REQUEST -- node:  1/L1   src:  8/MC  dest:  1/L1  tag: 0x   4db20 clock:     1575      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  2/L1  dest:  None tag: 0x   4db22 clock:     1576      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  2/L1  dest:  None tag: 0x   4db22 clock:     1576      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  2/L1  dest:  None tag: 0x   4db22 clock:     1576      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  2/L1  dest:  None tag: 0x   4db22 clock:     1576      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  2/L1  dest:  None tag: 0x   4db22 clock:     1576      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  2/L1  dest:  None tag: 0x   4db22 clock:     1576      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  2/L1  dest:  None tag: 0x   4db22 clock:     1576      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  2/L1  dest:  None tag: 0x   4db22 clock:     1576      GETS
+* COMPLETE -- PR: 1 -- Clock: 1576
+* FETCH -- PR: 1 -- Clock: 1576 -- w 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1577     STORE
+* COMPLETE -- PR: 1 -- Clock: 1578
+* FETCH -- PR: 1 -- Clock: 1578 -- r 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1579      LOAD
+* COMPLETE -- PR: 1 -- Clock: 1580
+* FETCH -- PR: 1 -- Clock: 1580 -- w 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1581     STORE
+* COMPLETE -- PR: 1 -- Clock: 1582
+* FETCH -- PR: 1 -- Clock: 1582 -- r 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1583      LOAD
+* COMPLETE -- PR: 1 -- Clock: 1584
+* FETCH -- PR: 1 -- Clock: 1584 -- r 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1585      LOAD
+* COMPLETE -- PR: 1 -- Clock: 1586
+* FETCH -- PR: 1 -- Clock: 1586 -- r 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1587      LOAD
+* COMPLETE -- PR: 1 -- Clock: 1588
+* FETCH -- PR: 1 -- Clock: 1588 -- w 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1589     STORE
+* COMPLETE -- PR: 1 -- Clock: 1590
+* FETCH -- PR: 1 -- Clock: 1590 -- r 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1591      LOAD
+* COMPLETE -- PR: 1 -- Clock: 1592
+* FETCH -- PR: 1 -- Clock: 1592 -- w 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1593     STORE
+* COMPLETE -- PR: 1 -- Clock: 1594
+* FETCH -- PR: 1 -- Clock: 1594 -- r 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1595      LOAD
+* COMPLETE -- PR: 1 -- Clock: 1596
+* FETCH -- PR: 1 -- Clock: 1596 -- r 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1597      LOAD
+* COMPLETE -- PR: 1 -- Clock: 1598
+* FETCH -- PR: 1 -- Clock: 1598 -- r 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1599      LOAD
+* COMPLETE -- PR: 1 -- Clock: 1600
+* FETCH -- PR: 1 -- Clock: 1600 -- r 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1601      LOAD
+* COMPLETE -- PR: 1 -- Clock: 1602
+* FETCH -- PR: 1 -- Clock: 1602 -- r 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1603      LOAD
+* COMPLETE -- PR: 1 -- Clock: 1604
+* FETCH -- PR: 1 -- Clock: 1604 -- r 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     1605      LOAD
+* COMPLETE -- PR: 1 -- Clock: 1606
+* FETCH -- PR: 1 -- Clock: 1606 -- r 0x5ac8ff
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x  5ac8ff clock:     1607      LOAD
+**** DATA SEND MC -- Clock: 1676
+*** SNOOP REQUEST -- node:  2/L1   src:  8/MC  dest:  2/L1  tag: 0x   4db22 clock:     1686      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  3/L1  dest:  None tag: 0x   4db24 clock:     1687      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  3/L1  dest:  None tag: 0x   4db24 clock:     1687      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  3/L1  dest:  None tag: 0x   4db24 clock:     1687      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  3/L1  dest:  None tag: 0x   4db24 clock:     1687      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  3/L1  dest:  None tag: 0x   4db24 clock:     1687      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  3/L1  dest:  None tag: 0x   4db24 clock:     1687      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  3/L1  dest:  None tag: 0x   4db24 clock:     1687      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  3/L1  dest:  None tag: 0x   4db24 clock:     1687      GETS
+* COMPLETE -- PR: 2 -- Clock: 1687
+* FETCH -- PR: 2 -- Clock: 1687 -- w 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1688     STORE
+* COMPLETE -- PR: 2 -- Clock: 1689
+* FETCH -- PR: 2 -- Clock: 1689 -- r 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1690      LOAD
+* COMPLETE -- PR: 2 -- Clock: 1691
+* FETCH -- PR: 2 -- Clock: 1691 -- w 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1692     STORE
+* COMPLETE -- PR: 2 -- Clock: 1693
+* FETCH -- PR: 2 -- Clock: 1693 -- r 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1694      LOAD
+* COMPLETE -- PR: 2 -- Clock: 1695
+* FETCH -- PR: 2 -- Clock: 1695 -- r 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1696      LOAD
+* COMPLETE -- PR: 2 -- Clock: 1697
+* FETCH -- PR: 2 -- Clock: 1697 -- r 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1698      LOAD
+* COMPLETE -- PR: 2 -- Clock: 1699
+* FETCH -- PR: 2 -- Clock: 1699 -- w 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1700     STORE
+* COMPLETE -- PR: 2 -- Clock: 1701
+* FETCH -- PR: 2 -- Clock: 1701 -- r 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1702      LOAD
+* COMPLETE -- PR: 2 -- Clock: 1703
+* FETCH -- PR: 2 -- Clock: 1703 -- w 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1704     STORE
+* COMPLETE -- PR: 2 -- Clock: 1705
+* FETCH -- PR: 2 -- Clock: 1705 -- r 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1706      LOAD
+* COMPLETE -- PR: 2 -- Clock: 1707
+* FETCH -- PR: 2 -- Clock: 1707 -- r 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1708      LOAD
+* COMPLETE -- PR: 2 -- Clock: 1709
+* FETCH -- PR: 2 -- Clock: 1709 -- r 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1710      LOAD
+* COMPLETE -- PR: 2 -- Clock: 1711
+* FETCH -- PR: 2 -- Clock: 1711 -- r 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1712      LOAD
+* COMPLETE -- PR: 2 -- Clock: 1713
+* FETCH -- PR: 2 -- Clock: 1713 -- r 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1714      LOAD
+* COMPLETE -- PR: 2 -- Clock: 1715
+* FETCH -- PR: 2 -- Clock: 1715 -- r 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     1716      LOAD
+* COMPLETE -- PR: 2 -- Clock: 1717
+* FETCH -- PR: 2 -- Clock: 1717 -- r 0x5ac8ff
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x  5ac8ff clock:     1718      LOAD
+**** DATA SEND MC -- Clock: 1787
+*** SNOOP REQUEST -- node:  3/L1   src:  8/MC  dest:  3/L1  tag: 0x   4db24 clock:     1797      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  4/L1  dest:  None tag: 0x   51b21 clock:     1798      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  4/L1  dest:  None tag: 0x   51b21 clock:     1798      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  4/L1  dest:  None tag: 0x   51b21 clock:     1798      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  4/L1  dest:  None tag: 0x   51b21 clock:     1798      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  4/L1  dest:  None tag: 0x   51b21 clock:     1798      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  4/L1  dest:  None tag: 0x   51b21 clock:     1798      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  4/L1  dest:  None tag: 0x   51b21 clock:     1798      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  4/L1  dest:  None tag: 0x   51b21 clock:     1798      GETS
+* COMPLETE -- PR: 3 -- Clock: 1798
+* FETCH -- PR: 3 -- Clock: 1798 -- w 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1799     STORE
+* COMPLETE -- PR: 3 -- Clock: 1800
+* FETCH -- PR: 3 -- Clock: 1800 -- r 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1801      LOAD
+* COMPLETE -- PR: 3 -- Clock: 1802
+* FETCH -- PR: 3 -- Clock: 1802 -- w 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1803     STORE
+* COMPLETE -- PR: 3 -- Clock: 1804
+* FETCH -- PR: 3 -- Clock: 1804 -- r 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1805      LOAD
+* COMPLETE -- PR: 3 -- Clock: 1806
+* FETCH -- PR: 3 -- Clock: 1806 -- r 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1807      LOAD
+* COMPLETE -- PR: 3 -- Clock: 1808
+* FETCH -- PR: 3 -- Clock: 1808 -- r 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1809      LOAD
+* COMPLETE -- PR: 3 -- Clock: 1810
+* FETCH -- PR: 3 -- Clock: 1810 -- w 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1811     STORE
+* COMPLETE -- PR: 3 -- Clock: 1812
+* FETCH -- PR: 3 -- Clock: 1812 -- r 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1813      LOAD
+* COMPLETE -- PR: 3 -- Clock: 1814
+* FETCH -- PR: 3 -- Clock: 1814 -- w 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1815     STORE
+* COMPLETE -- PR: 3 -- Clock: 1816
+* FETCH -- PR: 3 -- Clock: 1816 -- r 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1817      LOAD
+* COMPLETE -- PR: 3 -- Clock: 1818
+* FETCH -- PR: 3 -- Clock: 1818 -- r 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1819      LOAD
+* COMPLETE -- PR: 3 -- Clock: 1820
+* FETCH -- PR: 3 -- Clock: 1820 -- r 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1821      LOAD
+* COMPLETE -- PR: 3 -- Clock: 1822
+* FETCH -- PR: 3 -- Clock: 1822 -- r 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1823      LOAD
+* COMPLETE -- PR: 3 -- Clock: 1824
+* FETCH -- PR: 3 -- Clock: 1824 -- r 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1825      LOAD
+* COMPLETE -- PR: 3 -- Clock: 1826
+* FETCH -- PR: 3 -- Clock: 1826 -- r 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     1827      LOAD
+* COMPLETE -- PR: 3 -- Clock: 1828
+* FETCH -- PR: 3 -- Clock: 1828 -- r 0x5ac8ff
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x  5ac8ff clock:     1829      LOAD
+**** DATA SEND MC -- Clock: 1898
+*** SNOOP REQUEST -- node:  4/L1   src:  8/MC  dest:  4/L1  tag: 0x   51b21 clock:     1908      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  6/L1  dest:  None tag: 0x   51b15 clock:     1909      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  6/L1  dest:  None tag: 0x   51b15 clock:     1909      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  6/L1  dest:  None tag: 0x   51b15 clock:     1909      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  6/L1  dest:  None tag: 0x   51b15 clock:     1909      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  6/L1  dest:  None tag: 0x   51b15 clock:     1909      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  6/L1  dest:  None tag: 0x   51b15 clock:     1909      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  6/L1  dest:  None tag: 0x   51b15 clock:     1909      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  6/L1  dest:  None tag: 0x   51b15 clock:     1909      GETS
+* COMPLETE -- PR: 4 -- Clock: 1909
+* FETCH -- PR: 4 -- Clock: 1909 -- w 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1910     STORE
+* COMPLETE -- PR: 4 -- Clock: 1911
+* FETCH -- PR: 4 -- Clock: 1911 -- r 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1912      LOAD
+* COMPLETE -- PR: 4 -- Clock: 1913
+* FETCH -- PR: 4 -- Clock: 1913 -- w 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1914     STORE
+* COMPLETE -- PR: 4 -- Clock: 1915
+* FETCH -- PR: 4 -- Clock: 1915 -- r 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1916      LOAD
+* COMPLETE -- PR: 4 -- Clock: 1917
+* FETCH -- PR: 4 -- Clock: 1917 -- r 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1918      LOAD
+* COMPLETE -- PR: 4 -- Clock: 1919
+* FETCH -- PR: 4 -- Clock: 1919 -- r 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1920      LOAD
+* COMPLETE -- PR: 4 -- Clock: 1921
+* FETCH -- PR: 4 -- Clock: 1921 -- w 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1922     STORE
+* COMPLETE -- PR: 4 -- Clock: 1923
+* FETCH -- PR: 4 -- Clock: 1923 -- r 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1924      LOAD
+* COMPLETE -- PR: 4 -- Clock: 1925
+* FETCH -- PR: 4 -- Clock: 1925 -- r 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1926      LOAD
+* COMPLETE -- PR: 4 -- Clock: 1927
+* FETCH -- PR: 4 -- Clock: 1927 -- r 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1928      LOAD
+* COMPLETE -- PR: 4 -- Clock: 1929
+* FETCH -- PR: 4 -- Clock: 1929 -- w 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1930     STORE
+* COMPLETE -- PR: 4 -- Clock: 1931
+* FETCH -- PR: 4 -- Clock: 1931 -- r 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1932      LOAD
+* COMPLETE -- PR: 4 -- Clock: 1933
+* FETCH -- PR: 4 -- Clock: 1933 -- r 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1934      LOAD
+* COMPLETE -- PR: 4 -- Clock: 1935
+* FETCH -- PR: 4 -- Clock: 1935 -- r 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1936      LOAD
+* COMPLETE -- PR: 4 -- Clock: 1937
+* FETCH -- PR: 4 -- Clock: 1937 -- r 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     1938      LOAD
+* COMPLETE -- PR: 4 -- Clock: 1939
+* FETCH -- PR: 4 -- Clock: 1939 -- r 0x5ac8ff
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x  5ac8ff clock:     1940      LOAD
+**** DATA SEND MC -- Clock: 2009
+*** SNOOP REQUEST -- node:  6/L1   src:  8/MC  dest:  6/L1  tag: 0x   51b15 clock:     2019      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  7/L1  dest:  None tag: 0x   51b25 clock:     2020      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  7/L1  dest:  None tag: 0x   51b25 clock:     2020      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  7/L1  dest:  None tag: 0x   51b25 clock:     2020      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  7/L1  dest:  None tag: 0x   51b25 clock:     2020      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  7/L1  dest:  None tag: 0x   51b25 clock:     2020      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  7/L1  dest:  None tag: 0x   51b25 clock:     2020      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  7/L1  dest:  None tag: 0x   51b25 clock:     2020      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  7/L1  dest:  None tag: 0x   51b25 clock:     2020      GETS
+* COMPLETE -- PR: 6 -- Clock: 2020
+* FETCH -- PR: 6 -- Clock: 2020 -- w 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2021     STORE
+* COMPLETE -- PR: 6 -- Clock: 2022
+* FETCH -- PR: 6 -- Clock: 2022 -- r 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2023      LOAD
+* COMPLETE -- PR: 6 -- Clock: 2024
+* FETCH -- PR: 6 -- Clock: 2024 -- w 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2025     STORE
+* COMPLETE -- PR: 6 -- Clock: 2026
+* FETCH -- PR: 6 -- Clock: 2026 -- r 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2027      LOAD
+* COMPLETE -- PR: 6 -- Clock: 2028
+* FETCH -- PR: 6 -- Clock: 2028 -- r 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2029      LOAD
+* COMPLETE -- PR: 6 -- Clock: 2030
+* FETCH -- PR: 6 -- Clock: 2030 -- r 0x51b11
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b11 clock:     2031      LOAD
+**** DATA SEND MC -- Clock: 2120
+*** SNOOP REQUEST -- node:  7/L1   src:  8/MC  dest:  7/L1  tag: 0x   51b25 clock:     2130      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  5/L1  dest:  None tag: 0x  5ac8ff clock:     2131      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  5/L1  dest:  None tag: 0x  5ac8ff clock:     2131      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  5/L1  dest:  None tag: 0x  5ac8ff clock:     2131      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  5/L1  dest:  None tag: 0x  5ac8ff clock:     2131      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  5/L1  dest:  None tag: 0x  5ac8ff clock:     2131      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  5/L1  dest:  None tag: 0x  5ac8ff clock:     2131      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  5/L1  dest:  None tag: 0x  5ac8ff clock:     2131      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  5/L1  dest:  None tag: 0x  5ac8ff clock:     2131      GETS
+* COMPLETE -- PR: 7 -- Clock: 2131
+* FETCH -- PR: 7 -- Clock: 2131 -- w 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2132     STORE
+* COMPLETE -- PR: 7 -- Clock: 2133
+* FETCH -- PR: 7 -- Clock: 2133 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2134      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2135
+* FETCH -- PR: 7 -- Clock: 2135 -- w 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2136     STORE
+* COMPLETE -- PR: 7 -- Clock: 2137
+* FETCH -- PR: 7 -- Clock: 2137 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2138      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2139
+* FETCH -- PR: 7 -- Clock: 2139 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2140      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2141
+* FETCH -- PR: 7 -- Clock: 2141 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2142      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2143
+* FETCH -- PR: 7 -- Clock: 2143 -- w 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2144     STORE
+* COMPLETE -- PR: 7 -- Clock: 2145
+* FETCH -- PR: 7 -- Clock: 2145 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2146      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2147
+* FETCH -- PR: 7 -- Clock: 2147 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2148      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2149
+* FETCH -- PR: 7 -- Clock: 2149 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2150      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2151
+* FETCH -- PR: 7 -- Clock: 2151 -- w 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2152     STORE
+* COMPLETE -- PR: 7 -- Clock: 2153
+* FETCH -- PR: 7 -- Clock: 2153 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2154      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2155
+* FETCH -- PR: 7 -- Clock: 2155 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2156      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2157
+* FETCH -- PR: 7 -- Clock: 2157 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2158      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2159
+* FETCH -- PR: 7 -- Clock: 2159 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2160      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2161
+* FETCH -- PR: 7 -- Clock: 2161 -- r 0x5ac8ff
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x  5ac8ff clock:     2162      LOAD
+**** DATA SEND MC -- Clock: 2231
+*** SNOOP REQUEST -- node:  5/L1   src:  8/MC  dest:  5/L1  tag: 0x  5ac8ff clock:     2241      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  0/L1  dest:  None tag: 0x  5ac8ff clock:     2242      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  0/L1  dest:  None tag: 0x  5ac8ff clock:     2242      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  0/L1  dest:  None tag: 0x  5ac8ff clock:     2242      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  0/L1  dest:  None tag: 0x  5ac8ff clock:     2242      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  0/L1  dest:  None tag: 0x  5ac8ff clock:     2242      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  0/L1  dest:  None tag: 0x  5ac8ff clock:     2242      GETS
+**** DATA_SEND Cache: 5 -- Clock: 2242
+*** SNOOP REQUEST -- node:  6/L1   src:  0/L1  dest:  None tag: 0x  5ac8ff clock:     2242      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  0/L1  dest:  None tag: 0x  5ac8ff clock:     2242      GETS
+* COMPLETE -- PR: 5 -- Clock: 2242
+* FETCH -- PR: 5 -- Clock: 2242 -- w 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     2243     STORE
+* COMPLETE -- PR: 5 -- Clock: 2244
+* FETCH -- PR: 5 -- Clock: 2244 -- w 0x51ae1
+** PROC REQUEST -- node:  5/L1   src:  5/PR  dest:  None tag: 0x   51ae1 clock:     2245     STORE
+* COMPLETE -- PR: 5 -- Clock: 2246
+*** SNOOP REQUEST -- node:  0/L1   src:  5/L1  dest:  0/L1  tag: 0x  5ac8ff clock:     2252      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  1/L1  dest:  None tag: 0x  5ac8ff clock:     2253      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  1/L1  dest:  None tag: 0x  5ac8ff clock:     2253      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  1/L1  dest:  None tag: 0x  5ac8ff clock:     2253      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  1/L1  dest:  None tag: 0x  5ac8ff clock:     2253      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  1/L1  dest:  None tag: 0x  5ac8ff clock:     2253      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  1/L1  dest:  None tag: 0x  5ac8ff clock:     2253      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  1/L1  dest:  None tag: 0x  5ac8ff clock:     2253      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  1/L1  dest:  None tag: 0x  5ac8ff clock:     2253      GETS
+* COMPLETE -- PR: 0 -- Clock: 2253
+* FETCH -- PR: 0 -- Clock: 2253 -- w 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     2254     STORE
+* COMPLETE -- PR: 0 -- Clock: 2255
+* FETCH -- PR: 0 -- Clock: 2255 -- w 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     2256     STORE
+* COMPLETE -- PR: 0 -- Clock: 2257
+* FETCH -- PR: 0 -- Clock: 2257 -- w 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     2258     STORE
+* COMPLETE -- PR: 0 -- Clock: 2259
+* FETCH -- PR: 0 -- Clock: 2259 -- w 0x4db21
+** PROC REQUEST -- node:  0/L1   src:  0/PR  dest:  None tag: 0x   4db21 clock:     2260     STORE
+* COMPLETE -- PR: 0 -- Clock: 2261
+**** DATA SEND MC -- Clock: 2353
+*** SNOOP REQUEST -- node:  1/L1   src:  8/MC  dest:  1/L1  tag: 0x  5ac8ff clock:     2363      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  2/L1  dest:  None tag: 0x  5ac8ff clock:     2364      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  2/L1  dest:  None tag: 0x  5ac8ff clock:     2364      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  2/L1  dest:  None tag: 0x  5ac8ff clock:     2364      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  2/L1  dest:  None tag: 0x  5ac8ff clock:     2364      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  2/L1  dest:  None tag: 0x  5ac8ff clock:     2364      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  2/L1  dest:  None tag: 0x  5ac8ff clock:     2364      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  2/L1  dest:  None tag: 0x  5ac8ff clock:     2364      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  2/L1  dest:  None tag: 0x  5ac8ff clock:     2364      GETS
+* COMPLETE -- PR: 1 -- Clock: 2364
+* FETCH -- PR: 1 -- Clock: 2364 -- w 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     2365     STORE
+* COMPLETE -- PR: 1 -- Clock: 2366
+* FETCH -- PR: 1 -- Clock: 2366 -- w 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     2367     STORE
+* COMPLETE -- PR: 1 -- Clock: 2368
+* FETCH -- PR: 1 -- Clock: 2368 -- w 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     2369     STORE
+* COMPLETE -- PR: 1 -- Clock: 2370
+* FETCH -- PR: 1 -- Clock: 2370 -- w 0x4db20
+** PROC REQUEST -- node:  1/L1   src:  1/PR  dest:  None tag: 0x   4db20 clock:     2371     STORE
+* COMPLETE -- PR: 1 -- Clock: 2372
+**** DATA SEND MC -- Clock: 2464
+*** SNOOP REQUEST -- node:  2/L1   src:  8/MC  dest:  2/L1  tag: 0x  5ac8ff clock:     2474      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  3/L1  dest:  None tag: 0x  5ac8ff clock:     2475      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  3/L1  dest:  None tag: 0x  5ac8ff clock:     2475      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  3/L1  dest:  None tag: 0x  5ac8ff clock:     2475      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  3/L1  dest:  None tag: 0x  5ac8ff clock:     2475      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  3/L1  dest:  None tag: 0x  5ac8ff clock:     2475      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  3/L1  dest:  None tag: 0x  5ac8ff clock:     2475      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  3/L1  dest:  None tag: 0x  5ac8ff clock:     2475      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  3/L1  dest:  None tag: 0x  5ac8ff clock:     2475      GETS
+* COMPLETE -- PR: 2 -- Clock: 2475
+* FETCH -- PR: 2 -- Clock: 2475 -- w 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     2476     STORE
+* COMPLETE -- PR: 2 -- Clock: 2477
+* FETCH -- PR: 2 -- Clock: 2477 -- w 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     2478     STORE
+* COMPLETE -- PR: 2 -- Clock: 2479
+* FETCH -- PR: 2 -- Clock: 2479 -- w 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     2480     STORE
+* COMPLETE -- PR: 2 -- Clock: 2481
+* FETCH -- PR: 2 -- Clock: 2481 -- w 0x4db22
+** PROC REQUEST -- node:  2/L1   src:  2/PR  dest:  None tag: 0x   4db22 clock:     2482     STORE
+* COMPLETE -- PR: 2 -- Clock: 2483
+**** DATA SEND MC -- Clock: 2575
+*** SNOOP REQUEST -- node:  3/L1   src:  8/MC  dest:  3/L1  tag: 0x  5ac8ff clock:     2585      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  4/L1  dest:  None tag: 0x  5ac8ff clock:     2586      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  4/L1  dest:  None tag: 0x  5ac8ff clock:     2586      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  4/L1  dest:  None tag: 0x  5ac8ff clock:     2586      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  4/L1  dest:  None tag: 0x  5ac8ff clock:     2586      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  4/L1  dest:  None tag: 0x  5ac8ff clock:     2586      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  4/L1  dest:  None tag: 0x  5ac8ff clock:     2586      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  4/L1  dest:  None tag: 0x  5ac8ff clock:     2586      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  4/L1  dest:  None tag: 0x  5ac8ff clock:     2586      GETS
+* COMPLETE -- PR: 3 -- Clock: 2586
+* FETCH -- PR: 3 -- Clock: 2586 -- w 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     2587     STORE
+* COMPLETE -- PR: 3 -- Clock: 2588
+* FETCH -- PR: 3 -- Clock: 2588 -- w 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     2589     STORE
+* COMPLETE -- PR: 3 -- Clock: 2590
+* FETCH -- PR: 3 -- Clock: 2590 -- w 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     2591     STORE
+* COMPLETE -- PR: 3 -- Clock: 2592
+* FETCH -- PR: 3 -- Clock: 2592 -- w 0x4db24
+** PROC REQUEST -- node:  3/L1   src:  3/PR  dest:  None tag: 0x   4db24 clock:     2593     STORE
+* COMPLETE -- PR: 3 -- Clock: 2594
+**** DATA SEND MC -- Clock: 2686
+*** SNOOP REQUEST -- node:  4/L1   src:  8/MC  dest:  4/L1  tag: 0x  5ac8ff clock:     2696      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  6/L1  dest:  None tag: 0x   51b11 clock:     2697      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  6/L1  dest:  None tag: 0x   51b11 clock:     2697      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  6/L1  dest:  None tag: 0x   51b11 clock:     2697      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  6/L1  dest:  None tag: 0x   51b11 clock:     2697      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  6/L1  dest:  None tag: 0x   51b11 clock:     2697      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  6/L1  dest:  None tag: 0x   51b11 clock:     2697      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  6/L1  dest:  None tag: 0x   51b11 clock:     2697      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  6/L1  dest:  None tag: 0x   51b11 clock:     2697      GETS
+* COMPLETE -- PR: 4 -- Clock: 2697
+* FETCH -- PR: 4 -- Clock: 2697 -- w 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     2698     STORE
+* COMPLETE -- PR: 4 -- Clock: 2699
+* FETCH -- PR: 4 -- Clock: 2699 -- w 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     2700     STORE
+* COMPLETE -- PR: 4 -- Clock: 2701
+* FETCH -- PR: 4 -- Clock: 2701 -- w 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     2702     STORE
+* COMPLETE -- PR: 4 -- Clock: 2703
+* FETCH -- PR: 4 -- Clock: 2703 -- w 0x51b21
+** PROC REQUEST -- node:  4/L1   src:  4/PR  dest:  None tag: 0x   51b21 clock:     2704     STORE
+* COMPLETE -- PR: 4 -- Clock: 2705
+**** DATA SEND MC -- Clock: 2797
+*** SNOOP REQUEST -- node:  6/L1   src:  8/MC  dest:  6/L1  tag: 0x   51b11 clock:     2807      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  7/L1  dest:  None tag: 0x  5ac8ff clock:     2808      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  7/L1  dest:  None tag: 0x  5ac8ff clock:     2808      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  7/L1  dest:  None tag: 0x  5ac8ff clock:     2808      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  7/L1  dest:  None tag: 0x  5ac8ff clock:     2808      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  7/L1  dest:  None tag: 0x  5ac8ff clock:     2808      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  7/L1  dest:  None tag: 0x  5ac8ff clock:     2808      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  7/L1  dest:  None tag: 0x  5ac8ff clock:     2808      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  7/L1  dest:  None tag: 0x  5ac8ff clock:     2808      GETS
+* COMPLETE -- PR: 6 -- Clock: 2808
+* FETCH -- PR: 6 -- Clock: 2808 -- w 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2809     STORE
+* COMPLETE -- PR: 6 -- Clock: 2810
+* FETCH -- PR: 6 -- Clock: 2810 -- r 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2811      LOAD
+* COMPLETE -- PR: 6 -- Clock: 2812
+* FETCH -- PR: 6 -- Clock: 2812 -- r 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2813      LOAD
+* COMPLETE -- PR: 6 -- Clock: 2814
+* FETCH -- PR: 6 -- Clock: 2814 -- r 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2815      LOAD
+* COMPLETE -- PR: 6 -- Clock: 2816
+* FETCH -- PR: 6 -- Clock: 2816 -- w 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2817     STORE
+* COMPLETE -- PR: 6 -- Clock: 2818
+* FETCH -- PR: 6 -- Clock: 2818 -- r 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2819      LOAD
+* COMPLETE -- PR: 6 -- Clock: 2820
+* FETCH -- PR: 6 -- Clock: 2820 -- r 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2821      LOAD
+* COMPLETE -- PR: 6 -- Clock: 2822
+* FETCH -- PR: 6 -- Clock: 2822 -- r 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2823      LOAD
+* COMPLETE -- PR: 6 -- Clock: 2824
+* FETCH -- PR: 6 -- Clock: 2824 -- r 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     2825      LOAD
+* COMPLETE -- PR: 6 -- Clock: 2826
+* FETCH -- PR: 6 -- Clock: 2826 -- r 0x5ac8ff
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x  5ac8ff clock:     2827      LOAD
+**** DATA SEND MC -- Clock: 2908
+*** SNOOP REQUEST -- node:  7/L1   src:  8/MC  dest:  7/L1  tag: 0x  5ac8ff clock:     2918      DATA
+*** SNOOP REQUEST -- node:  0/L1   src:  6/L1  dest:  None tag: 0x  5ac8ff clock:     2919      GETS
+*** SNOOP REQUEST -- node:  1/L1   src:  6/L1  dest:  None tag: 0x  5ac8ff clock:     2919      GETS
+*** SNOOP REQUEST -- node:  2/L1   src:  6/L1  dest:  None tag: 0x  5ac8ff clock:     2919      GETS
+*** SNOOP REQUEST -- node:  3/L1   src:  6/L1  dest:  None tag: 0x  5ac8ff clock:     2919      GETS
+*** SNOOP REQUEST -- node:  4/L1   src:  6/L1  dest:  None tag: 0x  5ac8ff clock:     2919      GETS
+*** SNOOP REQUEST -- node:  5/L1   src:  6/L1  dest:  None tag: 0x  5ac8ff clock:     2919      GETS
+*** SNOOP REQUEST -- node:  6/L1   src:  6/L1  dest:  None tag: 0x  5ac8ff clock:     2919      GETS
+*** SNOOP REQUEST -- node:  7/L1   src:  6/L1  dest:  None tag: 0x  5ac8ff clock:     2919      GETS
+* COMPLETE -- PR: 7 -- Clock: 2919
+* FETCH -- PR: 7 -- Clock: 2919 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2920      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2921
+* FETCH -- PR: 7 -- Clock: 2921 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2922      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2923
+* FETCH -- PR: 7 -- Clock: 2923 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2924      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2925
+* FETCH -- PR: 7 -- Clock: 2925 -- r 0x51b25
+** PROC REQUEST -- node:  7/L1   src:  7/PR  dest:  None tag: 0x   51b25 clock:     2926      LOAD
+* COMPLETE -- PR: 7 -- Clock: 2927
+**** DATA SEND MC -- Clock: 3019
+*** SNOOP REQUEST -- node:  6/L1   src:  8/MC  dest:  6/L1  tag: 0x  5ac8ff clock:     3029      DATA
+* COMPLETE -- PR: 6 -- Clock: 3030
+* FETCH -- PR: 6 -- Clock: 3030 -- w 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     3031     STORE
+* COMPLETE -- PR: 6 -- Clock: 3032
+* FETCH -- PR: 6 -- Clock: 3032 -- w 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     3033     STORE
+* COMPLETE -- PR: 6 -- Clock: 3034
+* FETCH -- PR: 6 -- Clock: 3034 -- w 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     3035     STORE
+* COMPLETE -- PR: 6 -- Clock: 3036
+* FETCH -- PR: 6 -- Clock: 3036 -- w 0x51b15
+** PROC REQUEST -- node:  6/L1   src:  6/PR  dest:  None tag: 0x   51b15 clock:     3037     STORE
+* COMPLETE -- PR: 6 -- Clock: 3038
+Cache 0 Contents:
+Addr: 0x4db20 MOESI_protocol - state: I
+Addr: 0x4db21 MOESI_protocol - state: M
+Addr: 0x4db22 MOESI_protocol - state: I
+Addr: 0x4db24 MOESI_protocol - state: I
+Addr: 0x51ae1 MOESI_protocol - state: I
+Addr: 0x51b11 MOESI_protocol - state: I
+Addr: 0x51b15 MOESI_protocol - state: I
+Addr: 0x51b21 MOESI_protocol - state: I
+Addr: 0x51b25 MOESI_protocol - state: I
+Addr: 0x5ac8ff MOESI_protocol - state: S
+Addr: 0x179f77c MOESI_protocol - state: I
+Addr: 0x179f77d MOESI_protocol - state: I
+Addr: 0x179f77e MOESI_protocol - state: I
+Cache 1 Contents:
+Addr: 0x4db20 MOESI_protocol - state: M
+Addr: 0x4db21 MOESI_protocol - state: I
+Addr: 0x4db22 MOESI_protocol - state: I
+Addr: 0x4db24 MOESI_protocol - state: I
+Addr: 0x51ae1 MOESI_protocol - state: I
+Addr: 0x51b11 MOESI_protocol - state: I
+Addr: 0x51b15 MOESI_protocol - state: I
+Addr: 0x51b21 MOESI_protocol - state: I
+Addr: 0x51b25 MOESI_protocol - state: I
+Addr: 0x5ac8ff MOESI_protocol - state: S
+Addr: 0x179f77c MOESI_protocol - state: I
+Addr: 0x179f77d MOESI_protocol - state: I
+Addr: 0x179f77e MOESI_protocol - state: I
+Cache 2 Contents:
+Addr: 0x4db20 MOESI_protocol - state: I
+Addr: 0x4db21 MOESI_protocol - state: I
+Addr: 0x4db22 MOESI_protocol - state: M
+Addr: 0x4db24 MOESI_protocol - state: I
+Addr: 0x51ae1 MOESI_protocol - state: I
+Addr: 0x51b11 MOESI_protocol - state: I
+Addr: 0x51b15 MOESI_protocol - state: I
+Addr: 0x51b21 MOESI_protocol - state: I
+Addr: 0x51b25 MOESI_protocol - state: I
+Addr: 0x5ac8ff MOESI_protocol - state: S
+Addr: 0x179f77c MOESI_protocol - state: I
+Addr: 0x179f77d MOESI_protocol - state: I
+Addr: 0x179f77e MOESI_protocol - state: I
+Cache 3 Contents:
+Addr: 0x4db20 MOESI_protocol - state: I
+Addr: 0x4db21 MOESI_protocol - state: I
+Addr: 0x4db22 MOESI_protocol - state: I
+Addr: 0x4db24 MOESI_protocol - state: M
+Addr: 0x51ae1 MOESI_protocol - state: I
+Addr: 0x51b11 MOESI_protocol - state: I
+Addr: 0x51b15 MOESI_protocol - state: I
+Addr: 0x51b21 MOESI_protocol - state: I
+Addr: 0x51b25 MOESI_protocol - state: I
+Addr: 0x5ac8ff MOESI_protocol - state: S
+Addr: 0x179f77c MOESI_protocol - state: I
+Addr: 0x179f77d MOESI_protocol - state: I
+Addr: 0x179f77e MOESI_protocol - state: I
+Cache 4 Contents:
+Addr: 0x4db20 MOESI_protocol - state: I
+Addr: 0x4db21 MOESI_protocol - state: I
+Addr: 0x4db22 MOESI_protocol - state: I
+Addr: 0x4db24 MOESI_protocol - state: I
+Addr: 0x51ae1 MOESI_protocol - state: I
+Addr: 0x51b11 MOESI_protocol - state: I
+Addr: 0x51b15 MOESI_protocol - state: I
+Addr: 0x51b21 MOESI_protocol - state: M
+Addr: 0x51b25 MOESI_protocol - state: I
+Addr: 0x5ac8ff MOESI_protocol - state: S
+Addr: 0x179f77c MOESI_protocol - state: I
+Addr: 0x179f77d MOESI_protocol - state: I
+Addr: 0x179f77e MOESI_protocol - state: I
+Cache 5 Contents:
+Addr: 0x4db20 MOESI_protocol - state: I
+Addr: 0x4db21 MOESI_protocol - state: I
+Addr: 0x4db22 MOESI_protocol - state: I
+Addr: 0x4db24 MOESI_protocol - state: I
+Addr: 0x51ae1 MOESI_protocol - state: M
+Addr: 0x51b11 MOESI_protocol - state: I
+Addr: 0x51b15 MOESI_protocol - state: I
+Addr: 0x51b21 MOESI_protocol - state: I
+Addr: 0x51b25 MOESI_protocol - state: I
+Addr: 0x5ac8ff MOESI_protocol - state: S
+Addr: 0x179f77c MOESI_protocol - state: I
+Addr: 0x179f77d MOESI_protocol - state: I
+Addr: 0x179f77e MOESI_protocol - state: I
+Cache 6 Contents:
+Addr: 0x4db20 MOESI_protocol - state: I
+Addr: 0x4db21 MOESI_protocol - state: I
+Addr: 0x4db22 MOESI_protocol - state: I
+Addr: 0x4db24 MOESI_protocol - state: I
+Addr: 0x51ae1 MOESI_protocol - state: I
+Addr: 0x51b11 MOESI_protocol - state: E
+Addr: 0x51b15 MOESI_protocol - state: M
+Addr: 0x51b21 MOESI_protocol - state: I
+Addr: 0x51b25 MOESI_protocol - state: I
+Addr: 0x5ac8ff MOESI_protocol - state: S
+Addr: 0x179f77c MOESI_protocol - state: I
+Addr: 0x179f77d MOESI_protocol - state: O
+Addr: 0x179f77e MOESI_protocol - state: O
+Cache 7 Contents:
+Addr: 0x4db20 MOESI_protocol - state: I
+Addr: 0x4db21 MOESI_protocol - state: I
+Addr: 0x4db22 MOESI_protocol - state: I
+Addr: 0x4db24 MOESI_protocol - state: I
+Addr: 0x51ae1 MOESI_protocol - state: I
+Addr: 0x51b11 MOESI_protocol - state: I
+Addr: 0x51b15 MOESI_protocol - state: I
+Addr: 0x51b21 MOESI_protocol - state: I
+Addr: 0x51b25 MOESI_protocol - state: M
+Addr: 0x5ac8ff MOESI_protocol - state: S
+Addr: 0x179f77c MOESI_protocol - state: M
+Addr: 0x179f77d MOESI_protocol - state: S
+Addr: 0x179f77e MOESI_protocol - state: S
+
+Run Time:             3039 cycles
+Cache Misses:           48 misses
+Cache Accesses:        200 accesses
+Silent Upgrades:         8 upgrades
+$-to-$ Transfers:       23 transfers

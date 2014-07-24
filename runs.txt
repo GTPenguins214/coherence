@@ -1,0 +1,53 @@
+# Validation Runs
+# ./sim_trace -t traces/4proc_validation/ -p MI > output/4proc_validation/MI.txt
+# ./sim_trace -t traces/8proc_validation/ -p MI > output/8proc_validation/MI.txt
+# ./sim_trace -t traces/16proc_validation/ -p MI > output/16proc_validation/MI.txt
+
+# ./sim_trace -t traces/4proc_validation/ -p MSI > output/4proc_validation/MSI.txt
+# ./sim_trace -t traces/8proc_validation/ -p MSI > output/8proc_validation/MSI.txt
+# ./sim_trace -t traces/16proc_validation/ -p MSI > output/16proc_validation/MSI.txt
+
+# ./sim_trace -t traces/4proc_validation/ -p MOSI > output/4proc_validation/MOSI.txt
+# ./sim_trace -t traces/8proc_validation/ -p MOSI > output/8proc_validation/MOSI.txt
+# ./sim_trace -t traces/16proc_validation/ -p MOSI > output/16proc_validation/MOSI.txt
+
+# ./sim_trace -t traces/4proc_validation/ -p MESI > output/4proc_validation/MESI.txt
+# ./sim_trace -t traces/8proc_validation/ -p MESI > output/8proc_validation/MESI.txt
+# ./sim_trace -t traces/16proc_validation/ -p MESI > output/16proc_validation/MESI.txt
+
+# ./sim_trace -t traces/4proc_validation/ -p MOESI > output/4proc_validation/MOESI.txt
+# ./sim_trace -t traces/8proc_validation/ -p MOESI > output/8proc_validation/MOESI.txt
+# ./sim_trace -t traces/16proc_validation/ -p MOESI > output/16proc_validation/MOESI.txt
+
+# ./sim_trace -t traces/4proc_validation/ -p MOESIF > output/4proc_validation/MOESIF.txt
+# ./sim_trace -t traces/8proc_validation/ -p MOESIF > output/8proc_validation/MOESIF.txt
+# ./sim_trace -t traces/16proc_validation/ -p MOESIF > output/16proc_validation/MOESIF.txt
+
+# Experiment Runs
+./sim_trace -t traces/experiment3/ -p MI > output/experiment3/outputMI.txt
+./sim_trace -t traces/experiment3/ -p MSI > output/experiment3/outputMSI.txt
+./sim_trace -t traces/experiment3/ -p MOSI > output/experiment3/outputMOSI.txt
+./sim_trace -t traces/experiment3/ -p MESI > output/experiment3/outputMESI.txt
+./sim_trace -t traces/experiment3/ -p MOESI > output/experiment3/outputMOESI.txt
+./sim_trace -t traces/experiment3/ -p MOESIF > output/experiment3/outputMOESIF.txt
+
+./sim_trace -t traces/experiment4/ -p MI > output/experiment4/outputMI.txt
+./sim_trace -t traces/experiment4/ -p MSI > output/experiment4/outputMSI.txt
+./sim_trace -t traces/experiment4/ -p MOSI > output/experiment4/outputMOSI.txt
+./sim_trace -t traces/experiment4/ -p MESI > output/experiment4/outputMESI.txt
+./sim_trace -t traces/experiment4/ -p MOESI > output/experiment4/outputMOESI.txt
+./sim_trace -t traces/experiment4/ -p MOESIF > output/experiment4/outputMOESIF.txt
+
+./sim_trace -t traces/experiment5/ -p MI > output/experiment5/outputMI.txt
+./sim_trace -t traces/experiment5/ -p MSI > output/experiment5/outputMSI.txt
+./sim_trace -t traces/experiment5/ -p MOSI > output/experiment5/outputMOSI.txt
+./sim_trace -t traces/experiment5/ -p MESI > output/experiment5/outputMESI.txt
+./sim_trace -t traces/experiment5/ -p MOESI > output/experiment5/outputMOESI.txt
+./sim_trace -t traces/experiment5/ -p MOESIF > output/experiment5/outputMOESIF.txt
+
+./sim_trace -t traces/experiment7/ -p MI > output/experiment7/outputMI.txt
+./sim_trace -t traces/experiment7/ -p MSI > output/experiment7/outputMSI.txt
+./sim_trace -t traces/experiment7/ -p MOSI > output/experiment7/outputMOSI.txt
+./sim_trace -t traces/experiment7/ -p MESI > output/experiment7/outputMESI.txt
+./sim_trace -t traces/experiment7/ -p MOESI > output/experiment7/outputMOESI.txt
+./sim_trace -t traces/experiment7/ -p MOESIF > output/experiment7/outputMOESIF.txt

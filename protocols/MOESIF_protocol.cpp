@@ -494,7 +494,7 @@ inline void MOESIF_protocol::do_snoop_FM (Mreq *request) {
             set_shared_line(true);
             break;
         case GETM:
-            send_DATA_on_bus(request->addr, request->src_mid);
+            //send_DATA_on_bus(request->addr, request->src_mid);
             break;
         case DATA:
             send_DATA_to_proc(request->addr);

@@ -1,0 +1,23 @@
+vimdiff traces/4proc_validation/MI_validation.txt output/4proc_validation/MI.txt
+vimdiff traces/8proc_validation/MI_validation.txt output/8proc_validation/MI.txt
+vimdiff traces/16proc_validation/MI_validation.txt output/16proc_validation/MI.txt
+
+vimdiff traces/4proc_validation/MSI_validation.txt output/4proc_validation/MSI.txt
+vimdiff traces/8proc_validation/MSI_validation.txt output/8proc_validation/MSI.txt
+vimdiff traces/16proc_validation/MSI_validation.txt output/16proc_validation/MSI.txt
+
+vimdiff traces/4proc_validation/MOSI_validation.txt output/4proc_validation/MOSI.txt
+vimdiff traces/8proc_validation/MOSI_validation.txt output/8proc_validation/MOSI.txt
+vimdiff traces/16proc_validation/MOSI_validation.txt output/16proc_validation/MOSI.txt
+
+vimdiff traces/4proc_validation/MESI_validation.txt output/4proc_validation/MESI.txt
+vimdiff traces/8proc_validation/MESI_validation.txt output/8proc_validation/MESI.txt
+vimdiff traces/16proc_validation/MESI_validation.txt output/16proc_validation/MESI.txt
+
+vimdiff traces/4proc_validation/MOESI_validation.txt output/4proc_validation/MOESI.txt
+vimdiff traces/8proc_validation/MOESI_validation.txt output/8proc_validation/MOESI.txt
+vimdiff traces/16proc_validation/MOESI_validation.txt output/16proc_validation/MOESI.txt
+
+vimdiff traces/4proc_validation/MOESIF_validation.txt output/4proc_validation/MOESIF.txt
+vimdiff traces/8proc_validation/MOESIF_validation.txt output/8proc_validation/MOESIF.txt
+vimdiff traces/16proc_validation/MOESIF_validation.txt output/16proc_validation/MOESIF.txt
