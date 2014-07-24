@@ -1,3 +1,4 @@
+# Validation diffs
 vimdiff traces/4proc_validation/MI_validation.txt output/4proc_validation/MI.txt
 vimdiff traces/8proc_validation/MI_validation.txt output/8proc_validation/MI.txt
 vimdiff traces/16proc_validation/MI_validation.txt output/16proc_validation/MI.txt

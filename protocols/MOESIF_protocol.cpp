@@ -391,8 +391,12 @@ inline void MOESIF_protocol::do_snoop_M (Mreq *request)
             break;
         case GETM:
             // send the data and go to I
-            send_DATA_on_bus(request->addr, request->src_mid);
-            state = MOESIF_CACHE_I;
+            if (get_shared_line())
+                state = MOESIF_CACHE_I;
+            else {
+                send_DATA_on_bus(request->addr, request->src_mid);
+                state = MOESIF_CACHE_I;
+            }
             break;
         case DATA:
             request->print_msg(my_table->moduleID, "ERROR");
@@ -494,7 +498,8 @@ inline void MOESIF_protocol::do_snoop_FM (Mreq *request) {
             set_shared_line(true);
             break;
         case GETM:
-            //send_DATA_on_bus(request->addr, request->src_mid);
+            send_DATA_on_bus(request->addr, request->src_mid);
+            set_shared_line(true);
             break;
         case DATA:
             send_DATA_to_proc(request->addr);

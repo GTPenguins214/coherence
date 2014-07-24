@@ -1,27 +1,27 @@
 # Validation Runs
-# ./sim_trace -t traces/4proc_validation/ -p MI > output/4proc_validation/MI.txt
-# ./sim_trace -t traces/8proc_validation/ -p MI > output/8proc_validation/MI.txt
-# ./sim_trace -t traces/16proc_validation/ -p MI > output/16proc_validation/MI.txt
+./sim_trace -t traces/4proc_validation/ -p MI > output/4proc_validation/MI.txt
+./sim_trace -t traces/8proc_validation/ -p MI > output/8proc_validation/MI.txt
+./sim_trace -t traces/16proc_validation/ -p MI > output/16proc_validation/MI.txt
 
-# ./sim_trace -t traces/4proc_validation/ -p MSI > output/4proc_validation/MSI.txt
-# ./sim_trace -t traces/8proc_validation/ -p MSI > output/8proc_validation/MSI.txt
-# ./sim_trace -t traces/16proc_validation/ -p MSI > output/16proc_validation/MSI.txt
+./sim_trace -t traces/4proc_validation/ -p MSI > output/4proc_validation/MSI.txt
+./sim_trace -t traces/8proc_validation/ -p MSI > output/8proc_validation/MSI.txt
+./sim_trace -t traces/16proc_validation/ -p MSI > output/16proc_validation/MSI.txt
 
-# ./sim_trace -t traces/4proc_validation/ -p MOSI > output/4proc_validation/MOSI.txt
-# ./sim_trace -t traces/8proc_validation/ -p MOSI > output/8proc_validation/MOSI.txt
-# ./sim_trace -t traces/16proc_validation/ -p MOSI > output/16proc_validation/MOSI.txt
+./sim_trace -t traces/4proc_validation/ -p MOSI > output/4proc_validation/MOSI.txt
+./sim_trace -t traces/8proc_validation/ -p MOSI > output/8proc_validation/MOSI.txt
+./sim_trace -t traces/16proc_validation/ -p MOSI > output/16proc_validation/MOSI.txt
 
-# ./sim_trace -t traces/4proc_validation/ -p MESI > output/4proc_validation/MESI.txt
-# ./sim_trace -t traces/8proc_validation/ -p MESI > output/8proc_validation/MESI.txt
-# ./sim_trace -t traces/16proc_validation/ -p MESI > output/16proc_validation/MESI.txt
+./sim_trace -t traces/4proc_validation/ -p MESI > output/4proc_validation/MESI.txt
+./sim_trace -t traces/8proc_validation/ -p MESI > output/8proc_validation/MESI.txt
+./sim_trace -t traces/16proc_validation/ -p MESI > output/16proc_validation/MESI.txt
 
-# ./sim_trace -t traces/4proc_validation/ -p MOESI > output/4proc_validation/MOESI.txt
-# ./sim_trace -t traces/8proc_validation/ -p MOESI > output/8proc_validation/MOESI.txt
-# ./sim_trace -t traces/16proc_validation/ -p MOESI > output/16proc_validation/MOESI.txt
+./sim_trace -t traces/4proc_validation/ -p MOESI > output/4proc_validation/MOESI.txt
+./sim_trace -t traces/8proc_validation/ -p MOESI > output/8proc_validation/MOESI.txt
+./sim_trace -t traces/16proc_validation/ -p MOESI > output/16proc_validation/MOESI.txt
 
-# ./sim_trace -t traces/4proc_validation/ -p MOESIF > output/4proc_validation/MOESIF.txt
-# ./sim_trace -t traces/8proc_validation/ -p MOESIF > output/8proc_validation/MOESIF.txt
-# ./sim_trace -t traces/16proc_validation/ -p MOESIF > output/16proc_validation/MOESIF.txt
+./sim_trace -t traces/4proc_validation/ -p MOESIF > output/4proc_validation/MOESIF.txt
+./sim_trace -t traces/8proc_validation/ -p MOESIF > output/8proc_validation/MOESIF.txt
+./sim_trace -t traces/16proc_validation/ -p MOESIF > output/16proc_validation/MOESIF.txt
 
 # Experiment Runs
 ./sim_trace -t traces/experiment3/ -p MI > output/experiment3/outputMI.txt
